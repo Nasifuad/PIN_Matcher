@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00203FFF;
+    gap: 20px;
+}
+
+.container {
+    /* width: 500px; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+    /* background-color: rgba(152, 25, 168, 0.774); */
+    gap: 40px;
+}
+
+.box1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ADEFD1FF;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#Generated_Pin {
+    width: 200px;
+    height: 30px;
+    border: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 1px rgb(0, 8, 8);
+    border-radius: 5px;
+    background-color: #97BC62FF;
+}
+
+#Generated_Pin::placeholder {
+    color: black;
+}
+
+#Generate_Pin {
+    background-color: darkorchid;
+    border: none;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    box-shadow: 2px 1px 1px black;
+
+}
+
+.box2 {
+    width: 300px;
+    padding: 10px;
+    background-color: darkslategray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.digits {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+    gap: 5px;
+}
+
+.digits button {
+    color: black;
+    background-color: rgb(245, 220, 223);
+    font-size: 20px;
+}
+
+#Enter_Pin {
+    text-align: center;
+    height: 30px;
+    background-color: #97BC62FF;
+}
+
+#enter {
+    height: 50px;
+    width: 90px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 36, 66);
+    border-radius: 5px;
+    border: none;
+}
